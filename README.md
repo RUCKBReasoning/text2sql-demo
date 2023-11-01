@@ -49,7 +49,7 @@ unzip sic_ckpts.zip
 By default, this project includes only one database (i.e., `singer`) in the `databases` folder. 
 
 - To access all databases available in our online demo:
-  1. Download the comprehensive database collection from [databases.zip](https://pan.quark.cn/s/fc6b1ed32fc6). This package merges our two manually created databases (Aminer_Simplified and Bank_Financials) with the databases from the [BIRD](https://bird-bench.github.io) and [Spider](https://yale-lily.github.io/spider) benchmarks.
+  1. Download and unzip the comprehensive database collection from [databases.zip](https://pan.quark.cn/s/fc6b1ed32fc6). This package contains 248 different databases by merging two manually created databases (Aminer_Simplified and Bank_Financials) with all databases from the [BIRD](https://bird-bench.github.io) and [Spider](https://yale-lily.github.io/spider) benchmarks.
 
 - To add and use your own databases:
   1. Place your SQLite database file in the `databases` directory.
