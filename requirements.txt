@@ -2,6 +2,7 @@ flask
 websocket-client
 python-socketio
 eventlet
+langdetect
 func_timeout==4.3.5
 nltk==3.7
 numpy==1.23.5
