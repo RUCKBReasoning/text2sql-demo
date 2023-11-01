@@ -72,7 +72,7 @@ To initiate the website, execute the following command:
 ```
 python -u app.py
 ```
-This action will start the web application. Please note that user's history questions will be logged and can be accessed in the `data/history/history.sqlite` file.
+This action will start the web application, making it accessible at `http://your_ip:5000/chatbot`. Please note that user's history questions will be logged and can be accessed in the `data/history/history.sqlite` file.
 
 ## Support various languages 🧐
 Given that our model is predominantly trained on English text, integrating a translation API becomes essential for handling user's questions in languages other than English. 
