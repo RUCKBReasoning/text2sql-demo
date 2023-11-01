@@ -177,4 +177,4 @@ class ChatBot():
             else:
                 final_generated_sql = "Sorry, I can not generate a suitable SQL query for your question."
         
-        return final_generated_sql
+        return final_generated_sql.replace("\n", " ")
