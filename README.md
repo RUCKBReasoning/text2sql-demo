@@ -6,6 +6,8 @@ This repository releases a text-to-SQL demo, powered by [CodeS](https://huggingf
 
 Experience our demo firsthand by visiting: [http://101.43.153.141:5000/chatbot](http://101.43.153.141:5000/chatbot).
 
+**It is important to note that CodeS is designed as a single-turn text-to-SQL model and is not intended for multi-turn conversations.** Consequently, it lacks the ability to understand contexts in the chat box. Should the model's responses not meet your expectations, it is advisable to rephrase your question rather than trying to steer the model towards a correct answer with follow-up prompts.
+
 ## Environments 💫
 Our development environments are configured as follows:
 - GPU: NVIDIA A6000 with 40GB VRAM, CUDA version 11.8
