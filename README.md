@@ -84,7 +84,7 @@ In this project, we have utilized Baidu Translate. To facilitate multilingual su
 It is important to note that the translation quality may influence the model's accuracy. For enhanced text-to-SQL performance in languages of your preference, consider opting for more robust translation engines like Google Translate or DeepL.
 
 ## Get in Touch 🤗
-For any questions above this project, feel free to open a Github issue or directly contact Haoyang Li via email at lihaoyang.cs@ruc.edu.cn.
+For any questions above this project, feel free to open a Github issue or directly contact Haoyang Li via email at lihaoyang.cs@ruc.edu.cn or Renjie Wei at weirenjie@ai-finance.cn.
 
 ## Acknowledgments ✨
 Our gratitude extends to the teams behind [ChatBot💬 WebApp in Python using Flask](https://github.com/Spidy20/Flask_NLP_ChatBot), [BIRD](https://bird-bench.github.io), and [Spider](https://yale-lily.github.io/spider) for their outstanding contributions to the field.
