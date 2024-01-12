@@ -4,7 +4,7 @@
 
 This repository releases a text-to-SQL demo, powered by [CodeS](https://huggingface.co/seeklhy), a language model specifically tailored for text-to-SQL translation. 
 
-Experience our demo firsthand by visiting: [http://101.43.153.141:5000/chatbot](http://101.43.153.141:5000/chatbot).
+~~Experience our demo firsthand by visiting: [http://101.43.153.141:5000/chatbot](http://101.43.153.141:5000/chatbot).~~ (Our GPU servers are currently offline. We are aware of this issue and are working diligently to resolve it as quickly as possible.)
 
 **It is important to note that CodeS is designed as a single-turn text-to-SQL model and is not intended for multi-turn conversations.** Consequently, it lacks the ability to understand contexts in the chat box. Should the model's responses not meet your expectations, it is advisable to rephrase your question rather than trying to steer the model towards a correct answer with follow-up prompts.
 
