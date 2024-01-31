@@ -4,9 +4,9 @@
 
 This repository releases a text-to-SQL demo, powered by [CodeS](https://huggingface.co/seeklhy), a language model specifically tailored for text-to-SQL translation. 
 
-~~Experience our demo firsthand by visiting: [http://101.43.153.141:5000/chatbot](http://101.43.153.141:5000/chatbot).~~ (Our GPU servers are currently offline. We are aware of this issue and are working diligently to resolve it as quickly as possible.)
+Experience our demo firsthand by visiting: [http://101.42.9.17:5000/chatbot](http://101.42.9.17:5000/chatbot).
 
-**It is important to note that CodeS is designed as a single-turn text-to-SQL model and is not intended for multi-turn conversations.** Consequently, it lacks the ability to understand contexts in the chat box. Should the model's responses not meet your expectations, it is advisable to rephrase your question rather than trying to steer the model towards a correct answer with follow-up prompts.
+**It is important to note that CodeS is designed as a single-turn text-to-SQL model and is not intended for multi-turn conversations.** Consequently, it cannot understand contexts in the chat box. Should the model's responses not meet your expectations, it is advisable to rephrase your question rather than trying to steer the model toward a correct answer with follow-up prompts.
 
 ## Environments 💫
 Our development environments are configured as follows:
@@ -74,7 +74,7 @@ To initiate the website, execute the following command:
 ```
 python -u app.py
 ```
-This action will start the web application, making it accessible at `http://your_ip:5000/chatbot`. Please note that user's history questions will be logged and can be accessed in the `data/history/history.sqlite` file.
+This action will start the web application, making it accessible at `http://your_ip:5000/chatbot`. Please note that the user's history questions will be logged and can be accessed in the `data/history/history.sqlite` file.
 
 ## Support various languages 🧐
 Given that our model is predominantly trained on English text, integrating a translation API becomes essential for handling user's questions in languages other than English. 
@@ -84,7 +84,7 @@ In this project, we have utilized Baidu Translate. To facilitate multilingual su
 It is important to note that the translation quality may influence the model's accuracy. For enhanced text-to-SQL performance in languages of your preference, consider opting for more robust translation engines like Google Translate or DeepL.
 
 ## Get in Touch 🤗
-For any questions above this project, feel free to open a Github issue or directly contact Haoyang Li via email at lihaoyang.cs@ruc.edu.cn or Renjie Wei at weirenjie@ai-finance.cn.
+For any questions about this project, feel free to open a Github issue or directly contact Haoyang Li via email at lihaoyang.cs@ruc.edu.cn or Renjie Wei at weirenjie@ai-finance.cn.
 
 ## Acknowledgments ✨
 Our gratitude extends to the teams behind [ChatBot💬 WebApp in Python using Flask](https://github.com/Spidy20/Flask_NLP_ChatBot), [BIRD](https://bird-bench.github.io), and [Spider](https://yale-lily.github.io/spider) for their outstanding contributions to the field.
