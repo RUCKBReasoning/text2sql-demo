@@ -2,7 +2,7 @@
 
 ![Demo](images/demo.png)
 
-This repository releases a text-to-SQL demo, powered by [CodeS](https://huggingface.co/seeklhy), a language model specifically tailored for text-to-SQL translation. 
+This repository releases a text-to-SQL demo, powered by [CodeS](https://arxiv.org/abs/2402.16347), a language model specifically tailored for text-to-SQL translation. 
 
 Experience our demo firsthand by visiting: [http://101.42.9.17:5000/chatbot](http://101.42.9.17:5000/chatbot).
 
@@ -42,10 +42,11 @@ Now your environment should be all set up and ready for deployment!
 
 ## Prerequisites 🪐
 ### Step 1: Download Classifier Weights
-Download the the file [sic_ckpts.zip](https://drive.google.com/file/d/19JEC5Ld2Q6K80pUhFOGVCVHMD6t2eupc/view?usp=sharing) for the schema item classifier. Then, unzip the downloaded file in the root directory of the project:
+Download the the file [sic_ckpts.zip](https://drive.google.com/file/d/1V3F4ihTSPbV18g3lrg94VMH-kbWR_-lY/view?usp=sharing) for the schema item classifier. Then, unzip the downloaded file in the root directory of the project:
 ```
 unzip sic_ckpts.zip
 ```
+
 
 ### Step 2: Set Up Databases
 By default, this project includes only one database (i.e., `singer`) in the `databases` folder. 
@@ -84,7 +85,7 @@ In this project, we have utilized Baidu Translate. To facilitate multilingual su
 It is important to note that the translation quality may influence the model's accuracy. For enhanced text-to-SQL performance in languages of your preference, consider opting for more robust translation engines like Google Translate or DeepL.
 
 ## Get in Touch 🤗
-For any questions about this project, feel free to open a Github issue or directly contact Haoyang Li via email at lihaoyang.cs@ruc.edu.cn or Renjie Wei at weirenjie@ai-finance.cn.
+For any questions about this project, feel free to open a Github issue or directly contact Haoyang Li via email at lihaoyang.cs@ruc.edu.cn.
 
 ## Acknowledgments ✨
 Our gratitude extends to the teams behind [ChatBot💬 WebApp in Python using Flask](https://github.com/Spidy20/Flask_NLP_ChatBot), [BIRD](https://bird-bench.github.io), and [Spider](https://yale-lily.github.io/spider) for their outstanding contributions to the field.
