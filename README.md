@@ -4,8 +4,6 @@
 
 This repository releases a text-to-SQL demo, powered by [CodeS](https://arxiv.org/abs/2402.16347), a language model specifically tailored for text-to-SQL translation. 
 
-Experience our demo firsthand by visiting: [http://101.42.9.17:5000/chatbot](http://101.42.9.17:5000/chatbot).
-
 **It is important to note that CodeS is designed as a single-turn text-to-SQL model and is not intended for multi-turn conversations.** Consequently, it cannot understand contexts in the chat box. Should the model's responses not meet your expectations, it is advisable to rephrase your question rather than trying to steer the model toward a correct answer with follow-up prompts.
 
 ## Environments 💫
